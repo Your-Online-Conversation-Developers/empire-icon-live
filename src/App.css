@@ -1,0 +1,28 @@
+.cc {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.bk a{
+    color: #2d1b15;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.mtt-2 {
+    /* padding: 20px 0 0 0; */
+    margin: 80px 0 -35px 0;
+}
+.mtt-2 a {
+    color: #432300;
+}
+@media screen and (max-width:812px) {
+    .mtt-2 {
+        /* padding: 10px; */
+        margin: 80px 0 -35px 0;
+    }
+}
