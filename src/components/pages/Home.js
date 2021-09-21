@@ -5,6 +5,7 @@ import Call from '../elements/Call';
 import Floors from '../Floors';
 import Gallery from '../Gallery';
 import HeaderSlider from '../HeaderSlider';
+import MobileSlider from '../MobileSlider';
 import PlacesSection from '../PlacesSection';
 import Projects from '../Projects';
 import Rooms from '../Rooms';
@@ -14,6 +15,7 @@ const Home = () => {
     return (
         <div className="home">
             <HeaderSlider />
+            <MobileSlider />
             <About />
             <Floors />
             <VideoSection />

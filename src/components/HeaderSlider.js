@@ -3,10 +3,10 @@ import { Button } from "react-scroll";
 const HeaderSlider = () => {
   
   return (
-    <div className="header-section header-slider" id="header">
+    <div className="header-section header-slider desktop-slider" id="header">
       
       <div
-        className="single-hSlider hSlide-two"
+        className="single-hSlider hSlide-one"
         style={{
           background: "url(images/bg/diamond-luxury.webp) center center no-repeat",
           backgroundSize: "cover",
@@ -44,7 +44,7 @@ const HeaderSlider = () => {
 
 
       <div
-        className="single-hSlider hSlide-two"
+        className="single-hSlider hSlide-one"
         style={{
           background: "url(images/bg/gold-luxury.webp) center center no-repeat",
           backgroundSize: "cover",
@@ -80,7 +80,7 @@ const HeaderSlider = () => {
       </div>
 
       <div
-        className="single-hSlider hSlide-two"
+        className="single-hSlider hSlide-one"
         style={{
           background: "url(images/bg/sliver-luxury.webp) center center no-repeat",
           backgroundSize: "cover",
@@ -115,7 +115,7 @@ const HeaderSlider = () => {
       </div>
     
       <div
-        className="single-hSlider hSlide-two"
+        className="single-hSlider hSlide-one"
         style={{
           background: "url(images/bg/slider-3.webp) center center no-repeat",
           backgroundSize: "cover",
