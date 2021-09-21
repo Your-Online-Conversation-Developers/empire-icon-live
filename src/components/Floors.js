@@ -1,12 +1,25 @@
 import React from "react";
 import Heading from "./elements/Heading";
 import Buttton from "./elements/Buttton";
+import Slider from "react-slick";
+
 
 const Floors = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    arrows: false,
+    autoplay: true,
+    draggable: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <div className="floors-section" id="floorplans">
       <div className="container">
-        <div className="floor-list">
+        <Slider {...settings}>
           <div className="single-floor">
             <div className="row">
               <div className="col-md-6">
@@ -63,7 +76,6 @@ const Floors = () => {
             </div>
           </div>
 
-          {/* .single-floor */}
           <div className="single-floor">
             <div className="row">
               <div className="col-md-6">
@@ -116,7 +128,6 @@ const Floors = () => {
             </div>
           </div>
 
-          {/* .single-floor */}
           <div className="single-floor">
             <div className="row">
               <div className="col-md-6">
@@ -168,8 +179,7 @@ const Floors = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* .floor-list */}
+        </Slider>
       </div>
       {/* .container */}
     </div>

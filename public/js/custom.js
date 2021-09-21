@@ -71,20 +71,20 @@ jQuery(function(){
 	});	
 	
 	// Item Sliders
-	jQuery('.testimonials-list').slick({
-		dots: true,
-		fade: true,
-		adaptiveHeight: true,
-		autoplay: true,
-		arrows: false,
-	});
+	// jQuery('.testimonials-list').slick({
+	// 	dots: true,
+	// 	fade: true,
+	// 	adaptiveHeight: true,
+	// 	autoplay: true,
+	// 	arrows: false,
+	// });
 	
-	jQuery('.floor-list').slick({
-		dots: true,
-		adaptiveHeight: true,
-		autoplay: true,
-		arrows: false,
-	});
+	// jQuery('.floor-list').slick({
+	// 	dots: true,
+	// 	adaptiveHeight: true,
+	// 	autoplay: true,
+	// 	arrows: false,
+	// });
 	
 	
 });
