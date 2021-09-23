@@ -9,7 +9,7 @@ body{
 	letter-spacing:0.1em;
 }
 h1,.h1-like{
-	font-size:72px;
+	font-size:60px;
 	line-height:1.2em;
 	letter-spacing:0.05em;
 	font-weight:900;
@@ -57,4 +57,11 @@ blockquote{
 	line-height:2em;
 	font-weight:300;
 	letter-spacing:0.1em;
+}
+
+@media screen and (max-width:812px){
+	h1,
+	.h1-like {
+		font-size: 40px;}
+
 }
