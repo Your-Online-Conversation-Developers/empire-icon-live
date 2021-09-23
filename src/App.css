@@ -5,11 +5,6 @@
     color: #000;
 }
 
-.slick-slider {
-display:none;
-}
-
-
 .bk a{
     color: #2d1b15;
     font-weight: 800;
@@ -29,7 +24,4 @@ display:none;
         /* padding: 10px; */
         margin: 80px 0 -35px 0;
     }
-    .slick-slider {
-display:block;
-}
 }
