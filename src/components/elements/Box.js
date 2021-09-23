@@ -7,7 +7,17 @@ const Box = ({ iconClass, h6Text, pText = "" , placeImg="" }) => {
         <i className={iconClass} />
         {
         placeImg ? 
-        <img src={placeImg} alt="box" />
+        <a
+        href={placeImg}
+        data-effect="mfp-3d-unfold"
+        className="large-view"
+      >
+        <img
+          src={placeImg}
+          className="img-responsive"
+          alt="Gallery"
+        />
+      </a>
         : ''
         }
         <h6>{h6Text}</h6>

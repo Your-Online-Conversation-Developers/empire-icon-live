@@ -1085,4 +1085,21 @@ padding: 0 0 10px;
     color: #fff;
     padding-right: 6px;
   }
+
+  .about-section {
+    padding: 10px 0 10px;
+  }
+
+  .floors-section {
+    padding: 15px 0 15px;
+  }
+
+  .room-features-section {
+    padding: 40px 0;
+  }
+
+  .section-head {
+    padding: 15px 0 15px;
+  }
+
 }

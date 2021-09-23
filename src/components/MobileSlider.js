@@ -4,16 +4,15 @@ import Slider from "react-slick";
 const MobileSlider = () => {
   const settings = {
     dots: false,
-    fade: true,
     infinite: true,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
       speed: 5000,
-    cssEase: "linear"
   };
   return (
+    <div className="mobile-slider-container mobile-slider">
    <Slider {...settings}>
       <div className="single-hSlider hSlide-one">
         <img src="images/bg/mdiamond-luxury.jpg" alt="mobile" />
@@ -28,6 +27,7 @@ const MobileSlider = () => {
         <img src="images/bg/msilver.jpg" alt="mobile" />
       </div>
     </Slider>
+    </div>
   );
 };
 
