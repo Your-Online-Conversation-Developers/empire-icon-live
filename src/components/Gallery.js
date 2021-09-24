@@ -22,61 +22,91 @@ const Gallery = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <div className="single-gallery">
+            <a
+                href="images/gallery/1.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/1.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
           <div className="col-md-3 col-sm-6">
             <div className="single-gallery">
+              <a
+                href="images/gallery/2.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/2.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
           <div className="col-md-3 col-sm-6">
             <div className="single-gallery">
+              <a
+                href="images/gallery/3.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/3.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
+              <a
+                href="images/gallery/4.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
+              <a
+                href="images/gallery/5.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
+              <a
+                href="images/gallery/6.webp"
+                className="large-view"
+              >
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
+              </a>
             </div>
           </div>
           {/* .col */}
