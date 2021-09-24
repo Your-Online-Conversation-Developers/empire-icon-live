@@ -72,25 +72,25 @@ const AlGhaffar = () => {
       <div className="row">
         <div className="col-sm-12 col-md-6">
           <Heading
-                h2Text="Al Ghaffar "
-                spanText="Heights"
-                h4Text="Lets learn a little bit more about Al Ghaffar Heights"
+            h2Text="Al Ghaffar "
+            spanText="Heights"
+            h4Text="Lets learn a little bit more about Al Ghaffar Heights"
+          />
+          <p>
+            Gain is there anyone who loves or pursues or desires to obtain
+            pain of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure.
+          </p>
+          <ul className="project-list">
+            {liContent.map((item) => (
+              <LiItem
+                key={item.id}
+                liText={item.liText}
+                iconVal={item.iconVal}
+                iconClass={item.iconClass}
               />
-              <p>
-                Gain is there anyone who loves or pursues or desires to obtain
-                pain of itself, because it is pain, but because occasionally
-                circumstances occur in which toil and pain can procure.
-              </p>
-              <ul className="project-list">
-                {liContent.map((item) => (
-                  <LiItem
-                    key={item.id}
-                    liText={item.liText}
-                    iconVal={item.iconVal}
-                    iconClass={item.iconClass}
-                  />
-                ))}
-              </ul>
+            ))}
+          </ul>
         </div>
         <div className="col-sm-12 col-md-6">
           <img
@@ -104,98 +104,98 @@ const AlGhaffar = () => {
       <div className="row project-gallery">
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-      
+            <a href="images/gallery/4.webp" className="large-view">
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-          
-          </div>
-        </div>
-        {/* .col */}
-        <div className="col-xs-6 col-sm-4 col-md-3">
-          <div className="single-gallery">
-           
-            
-              <img
-                src="images/gallery/5.webp"
-                className="img-responsive"
-                alt="Gallery"
-              />
-          
-          </div>
-        </div>
-        {/* .col */}
-        <div className="col-xs-6 col-sm-4 col-md-3">
-          <div className="single-gallery">
-            
-              <img
-                src="images/gallery/6.webp"
-                className="img-responsive"
-                alt="Gallery"
-              />
-          
-          </div>
-        </div>
-        {/* .col */}
-        <div className="col-xs-6 col-sm-4 col-md-3">
-          <div className="single-gallery">
-          
-              <img
-                src="images/gallery/4.webp"
-                className="img-responsive"
-                alt="Gallery"
-              />
-            
-          </div>
-        </div>
-        {/* .col */}
-        <div className="col-xs-6 col-sm-4 col-md-3">
-          <div className="single-gallery">
-           
-              <img
-                src="images/gallery/5.webp"
-                className="img-responsive"
-                alt="Gallery"
-              />
-           
-          </div>
-        </div>
-        {/* .col */}
-        <div className="col-xs-6 col-sm-4 col-md-3">
-          <div className="single-gallery">
-      
-              <img
-                src="images/gallery/6.webp"
-                className="img-responsive"
-                alt="Gallery"
-              />
-        
+            </a>
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
 
+            <a href="images/gallery/5.webp" className="large-view">
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            
+            </a>
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-          
+            <a href="images/gallery/6.webp" className="large-view">
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            
+            </a>
+          </div>
+        </div>
+        {/* .col */}
+        <div className="col-xs-6 col-sm-4 col-md-3">
+          <div className="single-gallery">
+            <a href="images/gallery/4.webp" className="large-view">
+              <img
+                src="images/gallery/4.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
+            </a>
+          </div>
+        </div>
+        {/* .col */}
+        <div className="col-xs-6 col-sm-4 col-md-3">
+          <div className="single-gallery">
+            <a href="images/gallery/5.webp" className="large-view">
+              <img
+                src="images/gallery/5.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
+            </a>
+          </div>
+        </div>
+        {/* .col */}
+        <div className="col-xs-6 col-sm-4 col-md-3">
+          <div className="single-gallery">
+            <a href="images/gallery/6.webp" className="large-view">
+              <img
+                src="images/gallery/6.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
+            </a>
+          </div>
+        </div>
+        {/* .col */}
+        <div className="col-xs-6 col-sm-4 col-md-3">
+          <div className="single-gallery">
+            <a href="images/gallery/5.webp" className="large-view">
+              <img
+                src="images/gallery/5.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
+            </a>
+          </div>
+        </div>
+        {/* .col */}
+        <div className="col-xs-6 col-sm-4 col-md-3">
+          <div className="single-gallery">
+            <a href="images/gallery/6.webp" className="large-view">
+              <img
+                src="images/gallery/6.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
+            </a>
           </div>
         </div>
         {/* .col */}

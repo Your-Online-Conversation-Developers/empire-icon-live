@@ -72,39 +72,39 @@ const EmpireBusiness = () => {
       <div className="row">
         <div className="col-sm-12 col-md-6 mt-2">
           <Heading
-                h2Text="Empire"
-                spanText="Business"
-                h4Text="Lets learn a little bit more about Empire Business"
+            h2Text="Empire"
+            spanText="Business"
+            h4Text="Lets learn a little bit more about Empire Business"
+          />
+          <p>
+            Gain is there anyone who loves or pursues or desires to obtain pain
+            of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure.
+          </p>
+          <ul className="project-list">
+            {liContent.map((item) => (
+              <LiItem
+                key={item.id}
+                liText={item.liText}
+                iconVal={item.iconVal}
+                iconClass={item.iconClass}
               />
-              <p>
-                Gain is there anyone who loves or pursues or desires to obtain
-                pain of itself, because it is pain, but because occasionally
-                circumstances occur in which toil and pain can procure.
-              </p>
-              <ul className="project-list">
-                {liContent.map((item) => (
-                  <LiItem
-                    key={item.id}
-                    liText={item.liText}
-                    iconVal={item.iconVal}
-                    iconClass={item.iconClass}
-                  />
-                ))}
-              </ul>
+            ))}
+          </ul>
         </div>
         <div className="col-sm-12 col-md-6 mt-2">
-          <img src="images/projects/al-ghaffar.webp" alt="project" className="project-image"/>
+          <img
+            src="images/projects/al-ghaffar.webp"
+            alt="project"
+            className="project-image"
+          />
         </div>
       </div>
 
       <div className="row project-gallery">
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/4.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/4.webp" className="large-view">
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
@@ -116,11 +116,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/5.webp" className="large-view">
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
@@ -132,11 +128,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/6.webp" className="large-view">
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
@@ -148,11 +140,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/4.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/4.webp" className="large-view">
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
@@ -164,11 +152,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/5.webp" className="large-view">
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
@@ -180,11 +164,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/6.webp" className="large-view">
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
@@ -196,11 +176,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/5.webp" className="large-view">
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
@@ -212,11 +188,7 @@ const EmpireBusiness = () => {
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            <a href="images/gallery/6.webp" className="large-view">
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
