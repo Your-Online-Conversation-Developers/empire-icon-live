@@ -104,129 +104,98 @@ const AlGhaffar = () => {
       <div className="row project-gallery">
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/4.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+      
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+          
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+           
+            
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+          
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+            
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+          
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/4.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+          
               <img
                 src="images/gallery/4.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+            
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+           
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+           
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+      
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+        
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/5.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+
               <img
                 src="images/gallery/5.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+            
           </div>
         </div>
         {/* .col */}
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
-            <a
-              href="images/gallery/6.webp"
-              data-effect="mfp-3d-unfold"
-              className="large-view"
-            >
+          
               <img
                 src="images/gallery/6.webp"
                 className="img-responsive"
                 alt="Gallery"
               />
-            </a>
+            
           </div>
         </div>
         {/* .col */}

@@ -3,6 +3,26 @@ import Slider from "react-slick";
 import SliderItem from "./elements/SliderItem";
 
 const TestSlider = () => {
+
+  const SampleNextArrow = ({onClick}) =>{
+    return (
+      <div
+        className="arrow-next"
+        onClick={onClick}
+      ><i className="icofont icofont-rounded-right"></i></div>
+    );
+  }
+  
+  const SamplePrevArrow = ({onClick}) =>{
+    return (
+      <div
+        className="arrow-prev"
+        onClick={onClick}
+      ><i className="icofont icofont-rounded-left"></i></div>
+    );
+  }
+
+
   const settings = {
     dots: false,
     infinite: true,
@@ -10,7 +30,9 @@ const TestSlider = () => {
     draggable: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
     <div className="header-section desktop-slider" id="header">

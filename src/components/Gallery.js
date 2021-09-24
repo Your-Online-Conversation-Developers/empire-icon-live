@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "./elements/Heading";
- 
+
 const Gallery = () => {
   return (
     <div className="gallery-section alt-bg" id="gallery">
@@ -22,97 +22,61 @@ const Gallery = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <div className="single-gallery">
-              <a
-                href="images/gallery/1.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/1.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/1.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
           <div className="col-md-3 col-sm-6">
             <div className="single-gallery">
-              <a
-                href="images/gallery/2.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/2.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/2.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
           <div className="col-md-3 col-sm-6">
             <div className="single-gallery">
-              <a
-                href="images/gallery/3.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/3.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/3.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
-              <a
-                href="images/gallery/4.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/4.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/4.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
-              <a
-                href="images/gallery/5.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/5.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/5.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
           <div className="col-md-4 col-sm-6">
             <div className="single-gallery">
-              <a
-                href="images/gallery/6.webp"
-                data-effect="mfp-3d-unfold"
-                className="large-view"
-              >
-                <img
-                  src="images/gallery/6.webp"
-                  className="img-responsive"
-                  alt="Gallery"
-                />
-              </a>
+              <img
+                src="images/gallery/6.webp"
+                className="img-responsive"
+                alt="Gallery"
+              />
             </div>
           </div>
           {/* .col */}
