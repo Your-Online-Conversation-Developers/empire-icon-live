@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "./elements/Heading";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const Gallery = () => {
   return (
@@ -20,6 +21,7 @@ const Gallery = () => {
         </div>
         {/* .section-head */}
         <div className="row">
+        <SRLWrapper>
           <div className="col-md-6 col-sm-12">
             <div className="single-gallery">
             <a
@@ -110,6 +112,7 @@ const Gallery = () => {
             </div>
           </div>
           {/* .col */}
+          </SRLWrapper>
         </div>
         {/* .row */}
       </div>

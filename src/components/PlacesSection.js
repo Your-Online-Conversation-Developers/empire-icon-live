@@ -1,6 +1,7 @@
 import React from "react";
 import Box from "./elements/Box";
 import Heading from "./elements/Heading";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const PlacesSection = () => {
   const boxContent = [
@@ -88,7 +89,7 @@ const PlacesSection = () => {
         
 
         <div className="row text-center">
-          
+          <SRLWrapper>        
           {boxContent.map((item) => (
             
             <Box
@@ -99,7 +100,7 @@ const PlacesSection = () => {
             />
            
             ))}
-          
+          </SRLWrapper>
         </div>
         <div className="row">
           

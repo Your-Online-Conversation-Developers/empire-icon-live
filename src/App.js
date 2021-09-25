@@ -9,9 +9,11 @@ import AlGhaffar from "./components/projects/AlGhaffar";
 import IndusEmpire from "./components/projects/IndusEmpire";
 import EmpireBusiness from "./components/projects/EmpireBusiness";
 import ScrollToTop from "./components/elements/ScrollToTop";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 const App = () => {
   return (
+    <SimpleReactLightbox>
     <BrowserRouter>
       <Header />
       <ScrollToTop>
@@ -30,6 +32,7 @@ const App = () => {
       </ScrollToTop>
       <Footer />
     </BrowserRouter>
+    </SimpleReactLightbox>
   );
 };
 

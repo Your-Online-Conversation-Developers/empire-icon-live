@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router";
+import { SRLWrapper } from "simple-react-lightbox";
 import Heading from "../elements/Heading";
 import LiItem from "../elements/LiItem";
 
@@ -102,6 +103,7 @@ const EmpireBusiness = () => {
       </div>
 
       <div className="row project-gallery">
+      <SRLWrapper>
         <div className="col-xs-6 col-sm-4 col-md-3">
           <div className="single-gallery">
             <a href="images/gallery/4.webp" className="large-view">
@@ -197,6 +199,7 @@ const EmpireBusiness = () => {
             </a>
           </div>
         </div>
+        </SRLWrapper>
         {/* .col */}
       </div>
 
