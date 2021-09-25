@@ -254,6 +254,9 @@ body {
 .play-button {
   display: inline-block;
   position: relative;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 .play-button .pb-border-1 {
   padding: 5px;
@@ -559,7 +562,7 @@ body {
   background-size: cover;
 }
 .video-section .overlay {
-  padding: 137px 0 150px;
+  padding: 130px 0;
 }
 .video-section h2 {
   color: #fff;
@@ -567,7 +570,7 @@ body {
 }
 .video-border {
   text-align: center;
-  padding: 134px 0 99px;
+  padding: 50px 0 50px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .video-border h6 {

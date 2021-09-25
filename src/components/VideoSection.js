@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalVideo from "react-modal-video";
+import 'react-modal-video/css/modal-video.min.css';
+
 
 const VideoSection = () => {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <div className="video-section" id="tvc">
       <div className="overlay">
@@ -17,18 +22,22 @@ const VideoSection = () => {
             {/* .col */}
             <div className="col-md-6">
               <div className="video-border">
-                <a
-                  href="https://www.youtube.com/watch?v=FfjquCruyQs"
-                  data-effect="mfp-3d-unfold"
-                  className="play-button embaded-popup"
-                >
-                  <span className="pb-border-1">
-                    <span className="pb-border-2">
-                      <i className="icofont icofont-ui-play" />
-                    </span>
+                <ModalVideo
+                  channel="youtube"
+                  autoplay
+                  isOpen={isOpen}
+                  videoId="FfjquCruyQs"
+                  onClose={() => setOpen(false)}
+                />
+
+      
+                <button className="play-button" onClick={() => setOpen(true)}>
+                <span className="pb-border-1">
+                  <span className="pb-border-2">
+                    <i className="icofont icofont-ui-play" />
                   </span>
-                </a>
-                {/* .play-button */}
+                </span>
+                </button>
                 <h6>Play Now</h6>
               </div>
             </div>
