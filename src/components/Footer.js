@@ -68,6 +68,8 @@ const Footer = () => {
         </div>
         <div className="col-12 text-center mtt-2">Powered by <a href="https://www.youronlineconversation.com/"><b>Your Online Conversation</b></a></div>
       </div>
+
+      
     </div>
   );
 };

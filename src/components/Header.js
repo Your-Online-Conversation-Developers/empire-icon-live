@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Header = () => {
+
+  
   return (
     <div id="navigation" className="top-bar">
       <nav className="navbar navbar-default">

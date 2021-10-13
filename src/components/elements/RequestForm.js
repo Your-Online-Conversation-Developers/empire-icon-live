@@ -1,6 +1,32 @@
 import React from "react";
+import axios from 'axios';
+import { useState } from "react/cjs/react.development";
 
 const RequestForm = () => {
+
+  const [values, setValues] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  })
+
+  function handleChange(e) {
+    const key = e.target.id;
+    const value = e.target.value
+    setValues(values => ({
+        ...values,
+        [key]: value,
+    }))
+  }
+
+  
+ 
+  const Send = async () => {
+  }
+
+
+
   return (
     <div className="appointment-form" id="appointment-form">
       <h6>Schedule a visit</h6>
@@ -10,30 +36,34 @@ const RequestForm = () => {
           E-mail must be valid and message must be longer than 1 character.
         </span>
         <div className="input-box">
-          <input id="cf-name" type="text" name="cf-name" placeholder="Name" />
-        </div>
-        <div className="input-box">
-          <input
-            id="cf-email"
-            type="text"
-            name="cf-email"
-            placeholder="Email"
+          <input id="name" type="text" name="name" placeholder="Name" 
+          value={values.name} onChange={handleChange}
           />
         </div>
         <div className="input-box">
           <input
-            id="cf-subject"
+            id="email"
             type="text"
-            name="cf-subject"
+            name="email"
+            placeholder="Email"
+            value={values.email} onChange={handleChange}
+          />
+        </div>
+        <div className="input-box">
+          <input
+            id="subject"
+            type="text"
+            name="subject"
             placeholder="Subject"
+            value={values.subject} onChange={handleChange}
           />
         </div>
         <div className="input-box">
           <textarea
-            id="cf-message"
-            name="cf-message"
+            id="message"
+            name="message"
             placeholder="Message"
-            defaultValue={""}
+            value={values.message} onChange={handleChange}
           />
         </div>
         {/* IF MAIL SENT SUCCESSFULLY */}
@@ -43,10 +73,10 @@ const RequestForm = () => {
         <div className="input-box">
           <input
             className="button"
-            id="cf-submit"
-            name="submit"
-            type="submit"
+            id="submit"
+            type="button"
             defaultValue="Send Message"
+            onClick={(e)=>Send()}
           />
         </div>
       </form>
