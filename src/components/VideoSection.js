@@ -12,7 +12,7 @@ const VideoSection = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
-              <h2>Take a Quick Look</h2>
+              <h2 class="b">Take a Quick Look</h2>
             </div>
             {/* .col */}
           </div>

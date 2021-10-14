@@ -95,7 +95,7 @@ const EmpireBusiness = () => {
         </div>
         <div className="col-sm-12 col-md-6 mt-2">
           <img
-            src="images/projects/al-ghaffar.webp"
+            src="images/projects/empire-business.webp"
             alt="project"
             className="project-image"
           />

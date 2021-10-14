@@ -30,6 +30,15 @@ const App = () => {
           <Redirect to="/not-found" />
         </Switch>
       </ScrollToTop>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/00923029228222"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
       <Footer />
     </BrowserRouter>
     </SimpleReactLightbox>

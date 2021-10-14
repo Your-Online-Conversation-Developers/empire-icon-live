@@ -15,7 +15,7 @@ const SliderItem = ({ uHead, mHead, lHead, imgSrc, toLink }) => {
         <Button
           className="button sm appear-from-bottom"
           type="submit"
-          value="REQUEST A CALL BACK"
+          value="Download Plan"
           to={toLink}
           spy={true}
           smooth={true}

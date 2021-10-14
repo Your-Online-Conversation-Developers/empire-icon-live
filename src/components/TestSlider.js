@@ -44,6 +44,7 @@ const TestSlider = () => {
           lHead="TYPE A | 2 SIDE CORNER"
           imgSrc="images/bg/diamond-luxury.webp"
           toLink="about"
+          
         />
 
         <SliderItem 

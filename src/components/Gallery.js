@@ -11,7 +11,7 @@ const Gallery = () => {
             <div className="col-md-12">
               <Heading
                 h2Text="Photo"
-                spanText="Gallery."
+                spanText="Gallery"
                 h4Text="Lets take a look at Empire Icon's photo gallery"
               />
             </div>

@@ -30,7 +30,7 @@ const Floors = () => {
 
               <div className="col-md-6">
                 <Heading
-                  h2Text="Diamond Luxury."
+                  h2Text="Diamond Luxury"
                   h4Text="Type A | 2 Side Corner"
                 />
                 <Buttton
@@ -85,7 +85,7 @@ const Floors = () => {
               </div>
 
               <div className="col-md-6">
-                <Heading h2Text="Gold Luxury." h4Text="Type B | West Open" />
+                <Heading h2Text="Gold Luxury" h4Text="Type B | West Open" />
                 <Buttton
                   aLink="pdf/gold.pdf"
                   aText="Download Plan"
@@ -137,7 +137,7 @@ const Floors = () => {
               </div>
 
               <div className="col-md-6">
-                <Heading h2Text="Silver Luxury." h4Text="Type C | Corner" />
+                <Heading h2Text="Silver Luxury" h4Text="Type C | Corner" />
                 <Buttton
                   aLink="pdf/silver.pdf"
                   aText="Download Plan"

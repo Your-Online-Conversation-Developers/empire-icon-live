@@ -11,7 +11,7 @@ const Projects = () => {
             <div className="col-md-12">
               <Heading
                 h2Text="Our"
-                spanText="Projects."
+                spanText="Projects"
                 h4Text="Lets take a look at Our Projects"
               />
             </div>

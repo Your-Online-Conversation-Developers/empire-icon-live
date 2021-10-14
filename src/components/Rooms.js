@@ -51,7 +51,7 @@ const Rooms = () => {
           <div className="col-md-6">
             <div className="room-features-texts">
               <Heading
-                h2Text="Duplex."
+                h2Text="Duplex"
                 h4Text="Gold Luxury Type B | West Open"
               />
               <ul>

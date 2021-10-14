@@ -95,7 +95,7 @@ const IndusEmpire = () => {
         </div>
         <div className="col-sm-12 col-md-6">
           <img
-            src="images/projects/al-ghaffar.webp"
+            src="images/projects/indus-empire.webp"
             alt="project"
             className="project-image"
           />

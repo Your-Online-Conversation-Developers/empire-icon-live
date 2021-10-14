@@ -80,8 +80,8 @@ const PlacesSection = () => {
             <div className="col-md-12">
               <Heading
                 h2Text="Nearby"
-                spanText="Places."
-                h4Text="Lets take a look at Empire Icon's nearby places"
+                spanText="Places"
+                h4Text="Explore The Empire Icon's Nearby Amenities."
               />
             </div>
           </div>

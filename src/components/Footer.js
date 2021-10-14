@@ -11,7 +11,7 @@ const Footer = () => {
               <img src="images/logo.png" alt="logo" className="foot-logo" />
             </Link>
             <p>
-            Gain is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure.
+            Backed by a visionary real estate leadership, Empire Icon is a regal enterprise that redefines luxury by creating grand opportunities for homeowners who dream about affording an exceptional lifestyle in Bahria Town.
             </p>
 
             

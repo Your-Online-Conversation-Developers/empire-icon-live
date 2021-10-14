@@ -75,7 +75,7 @@ const About = () => {
             <div className="about-text">
               <Heading
                 h2Text="About"
-                spanText="Empire Icon."
+                spanText="Empire Icon"
                 h4Text="Lets learn a little bit more about Empire Icon"
               />
               <p>
