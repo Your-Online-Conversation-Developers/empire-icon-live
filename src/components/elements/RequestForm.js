@@ -1,15 +1,10 @@
 import React from "react";
-import { useState } from "react/cjs/react.development";
 
 const RequestForm = () => {
   return (
     <div className="appointment-form" id="appointment-form">
       <h6>Schedule a visit</h6>
-      <form id="contact">
-        {/* IF MAIL SENDING UNSUCCESSFULL */}
-        <span className="error">
-          E-mail must be valid and message must be longer than 1 character.
-        </span>
+      <form>
         <div className="input-box">
           <input id="name" type="text" name="name" placeholder="Name" 
           />
